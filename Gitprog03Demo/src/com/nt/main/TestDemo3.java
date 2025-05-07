@@ -8,6 +8,9 @@ public class TestDemo3 {
 		System.out.println("=================================");
 		int sub = Calculation.sub(200, 100);
 		System.out.println("Sub :"+sub);
+		
+		String paymentMethod = UpiPayment.paymentMethod("phonepay");
+		System.out.println(paymentMethod);
 	}
 
 }
