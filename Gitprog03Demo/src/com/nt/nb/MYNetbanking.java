@@ -2,7 +2,7 @@ package com.nt.nb;
 
 public class MYNetbanking {
 	
-	public string myTransferAmount()
+	public String myTransferAmount()
 	{
 		return "money send successfuly!";
 	}
