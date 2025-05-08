@@ -9,7 +9,7 @@ public class TestDemo3 {
 		int sub = Calculation.sub(200, 100);
 		System.out.println("Sub :"+sub);
 		
-		String paymentMethod = UpiPayment.paymentMethod("phonepay");
+		String paymentMethod = UpiPayment.paymentMethod("phonepay","8677037216@ybl");
 		System.out.println(paymentMethod);
 	}
 
