@@ -7,4 +7,9 @@ public class MYNetbanking {
 		return "money send successfuly!";
 	}
 
+	public String ImpsTrangeaction(String AcountNumber) {
+		
+		return "Payment By imps Method"+AcountNumber;
+	}
+	
 }
